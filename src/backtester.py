@@ -19,7 +19,7 @@ elif sys.platform.startswith('linux'):
     matplotlib.rc('font', family='WenQuanYi Micro Hei')
 else:
     # macOS系统
-    matplotlib.rc('font', family='PingFang SC')
+    matplotlib.rc('font', family='PingFang HK')
 
 # 用来正常显示负号
 matplotlib.rcParams['axes.unicode_minus'] = False
